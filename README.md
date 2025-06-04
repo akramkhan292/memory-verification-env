@@ -24,10 +24,10 @@ sv-memory-verification/
 │   ├── monitor1.sv           # Captures pre-read signals
 │   ├── monitor2.sv           # Captures post-read signals
 │   ├── scoreboard.sv         # Verifies correctness
-│   ├── env.sv                # Environment connecting components
-│   └── dut.sv                # Device Under Test
+│   ├── environment.sv                # Environment connecting components
+│   └── design.sv                # Device Under Test
 ├── testbench/
-│   └── top_tb.sv             # Top-level testbench
+│   └── testbench.sv             # Top-level testbench
 ├── README.md
 └── .gitignore
 ```
